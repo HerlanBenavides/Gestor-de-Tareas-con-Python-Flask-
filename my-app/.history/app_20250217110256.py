@@ -1,0 +1,13 @@
+from  flask import Flask, render_template,jsonify, request
+
+app = Flask(__name__)
+
+tareas = []
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('tareas', (self, *args, **kwargs):
+    return super().(*args, **kwargs)
+)
